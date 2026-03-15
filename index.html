@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .sidebar-2{
+        border: 1px solid black;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: aliceblue;
+      }
+      img{
+      
+        padding: 15px;
+        margin-left: 120px;
+        border-radius: 65px;
+        width: 120px;
+        height: 120px;
+
+      }
+      .sidebar{
+        height: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 10px;
+      }
+
+      .col-4{
+        background-color: beige;
+      }
+      .col-8{
+         height: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        /* marginleft: 100px; */
+        background-color: blanchedalmond;
+      }
+      a{
+        text-decoration: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1> <i class="fa-brands fa-asymmetrik"></i>ELEVATE COMPANY.</h1>
+
+    <div class="container-fluid">
+        <div  class="row">
+            <div class="col-4">
+
+
+              <div class="sidebar">
+        <div class="sidebar-2">
+            <a href="./dashboard.html"> <i class="fa-brands fa-microsoft"></i>Dashboard
+            <p class="text-center" style="display: flex; justify-content: center; align-items: center;">
+           
+</p></a>
+            </div>
+            <div class="sidebar-2">
+                <a href="./salesRegistratgion.html"> <i class="fa-solid fa-chart-bar"></i>Stock registration <p class="text-center" style="display: flex; justify-content: center; align-items: center;">
+           
+</p>
+</a>
+            </div>
+            <div class="sidebar-2">
+            <a href="./supplierRegistration.html"><i class="fa-solid fa-address-book"></i>Portfolio  <p class="text-center" style="display: flex; justify-content: center; align-items: center;">
+           
+</p></a>
+            </div>
+            <div class="sidebar-2">
+                <a href="Stockregistration.html"><i class="fa-solid fa-clipboard"></i>Reports <p class="text-center" style="display: flex; justify-content: center; align-items: center;">
+           
+</p></a>
+            </div>
+            <div class="sidebar-2">
+                <a href="./transportCalculation"><i class="fa-solid fa-gear"></i>Settings <p class="text-center" style="display: flex; justify-content: center; align-items: center;">
+           
+</p>
+</a>
+            </div>
+            <p class="text-center">Account</p>
+            <hr>
+            <div class="img">
+              <img src="./company.jpg" >
+            </div>
+            <P class="text-center">BAWUZA GRACE</P>
+            <hr>
+           <i class="fa-solid fa-arrow-right-from-bracket" style="margin-left: 8px;"></i> Log out
+           <p class="text-center" style="display: flex; justify-content: center; align-items: center;">
+           
+</p>
+
+        </div>
+
+            </div>
+            <div class="col-8">
+
+                <form action="">
+                    <h2 class="text-center">Company Infomation</h2>
+                    <div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">Company Name</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Company Name">
+</div>
+
+                            <div class="col">
+                                <label for="formGroupExampleInput" class="form-label">Contact Person</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Contact">
+</div>
+                            
+                        </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">Email address</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter email Address">
+</div>
+
+ 
+                            
+                        </div>
+                                            <h3 class="text-center">Stock Details</h3>
+                    <div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">ID number</label>
+  <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Enter ID number">
+</div>
+
+                            <div class="col">
+                                <label for="formGroupExampleInput" class="form-label">License number</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter license no.">
+</div>
+                            
+                        </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">Number of shares</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Number of shares">
+</div>
+
+                            <div class="col">
+                                <label for="formGroupExampleInput" class="form-label">Share price</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter price">
+</div>
+<div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">Stock category</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter stock category">
+</div>
+
+                            <div class="col">
+                                <label for="formGroupExampleInput" class="form-label">Market Exchange</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter market Exchange">
+</div>
+<h3 class="text-center">Description</h3>
+ <div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">Stock description</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+</div>
+
+<h3 class="text-center">Dates</h3>
+<div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput" class="form-label">Issue Date </label>
+  <input type="Date" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+</div>
+
+                            <div class="col">
+                                <label for="formGroupExampleInput" class="form-label">Maturity Date</label>
+  <input type="Date" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+</div>
+<br>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+  <label class="form-check-label" for="checkChecked">
+    I agree to the terms and conditions
+  </label>
+</div>
+<div class="row">
+  <div class="col">
+<input class="btn btn-primary" type="submit" value="Submit">
+</div>
+<div class="col">
+<input class="btn btn-primary" type="reset" value="Reset">
+</div>
+</div>
+                        </form>
+                    </div>
+
+                    
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
